@@ -1,0 +1,84 @@
+.App {
+  text-align: center; }
+
+.list {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ebebeb;
+  border-radius: 4px; }
+  .list:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.create-button {
+  display: inline-block;
+  text-align: right;
+  border-radius: 2px;
+  border: none;
+  background-color: #008CBA;
+  color: white;
+  padding: 6px 10px;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.add-button {
+  border-radius: 2px;
+  border: none;
+  background-color: #008CBA;
+  color: white;
+  padding: 6px 10px;
+  margin-right: 10px;
+  margin-left: 10px; }
+
+.cancel-button {
+  border-radius: 2px;
+  border: none;
+  background-color: #f44336;
+  color: white;
+  padding: 6px 10px; }
+
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 150%; }
+
+.votes {
+  font-weight: bold; }
+
+.topic {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0px 10px 0px; }
+  .topic:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .topic .upvotes {
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%; }
+  .topic .content {
+    width: 57.62712%;
+    float: left;
+    margin-right: 1.69492%; }
+  .topic button.up {
+    width: 11.01695%;
+    float: left;
+    margin-right: 1.69492%;
+    border-radius: 2px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 10px; }
+  .topic button.down {
+    width: 11.01695%;
+    float: right;
+    margin-right: 0;
+    border-radius: 2px;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    padding: 6px 10px; }
